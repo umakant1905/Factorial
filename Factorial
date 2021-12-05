@@ -1,0 +1,5 @@
+n = int(input('Enter the Number: '))
+product = 1
+for i in range(n):
+    product = product*(i+1)
+print(f'The Factorial of {n} is',product)
